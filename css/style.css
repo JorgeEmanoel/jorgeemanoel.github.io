@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    color: #777;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px dashed #c0c0c0;
+}
