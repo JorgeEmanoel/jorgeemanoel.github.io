@@ -83,6 +83,26 @@ p.lead {
   color: #BD5D38;
 }
 
+#sideNav {
+    background-image: url('../img/wallpaper.png');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#sideNav:before {
+    background-color: rgba(0, 0, 0, .8) !important;
+    box-shadow: 0 0 20px #333;
+    border-right: 2px dashed #23c76e;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -176,17 +196,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #38bd75 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #38bd75 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #38bd81;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #32a370;
 }
